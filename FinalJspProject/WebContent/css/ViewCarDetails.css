@@ -1,0 +1,25 @@
+@CHARSET "ISO-8859-1";
+#viewCarDiv{
+	height:400px;
+	width:1200px;
+	border:1px solid black;
+	
+}
+#carImage{
+	float:left;
+	padding:30px;
+}
+#deatailsDiv{
+	float:left;
+	padding:20px;
+}
+#carImageSrc{
+	border-radius:20px;
+}
+#LikedIconImg{
+	height:40px;
+	width:40px;
+	margin-left:20px;
+	margin-top:20px;
+	
+}

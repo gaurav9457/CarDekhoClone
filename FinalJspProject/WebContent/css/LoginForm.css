@@ -1,0 +1,104 @@
+@CHARSET "ISO-8859-1";
+#parent{
+	width:1200px;
+	margin:0 auto;
+}
+#popupDiv{
+    height: 100vh;
+    width: 1200px;
+    background-color: rgb(33, 33, 32,0.8);
+    position: fixed;
+    top: 0;
+    display: none;
+   
+}
+#LoginImg{
+    height:400px;
+    width:300px ;
+    background-image: url("https://stimg.cardekho.com/pwa/img/my-account/pic/login-banner.svg");
+    background-size: contain;
+    display: inline-block;
+    /* position: absolute;
+    top: 164px;
+    left: 200px; */
+}
+#popup-child{
+    height: 400px;
+    width: 400px;
+    background-color: white; 
+    position: absolute;
+    /* inset: 0;
+    margin: auto; */
+    display: inline-block;
+}
+#popupChildMain{
+    height: 400px;
+    width: 730px;
+	/*  max-height:90%;
+	  max-width:50%;   */
+    position: absolute;
+    inset: 0;
+    margin: auto;
+
+}
+#close{
+    position: absolute;
+    top: 5px;
+    left: 360px;
+    cursor: pointer;
+    color: white;
+    border-radius: 50px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#formDiv{
+    height: 300px;
+    width: 350px;
+    /* background-color: red; */  
+    margin: auto;
+    margin-top: 60px;
+	
+}
+#Username,#Password{
+    padding: 6px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid;
+    width: 280px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 25px;
+    color: rgb(246, 239, 239);
+    
+}
+::placeholder {
+    color: rgb(231, 223, 223);
+    
+  }
+#labelUsername,#labelPassword{
+   color: rgb(251, 249, 249);
+   font-size: 20px;
+   margin-left: 20px;
+   
+
+}
+#Username,#Password:focus{
+    outline: none;
+}
+#Loginbtn{
+    padding: 15px 28px;
+    background-color: #2e7ec4;
+    border: 1px solid;
+    margin: 50px 10px 10px 120px;
+    color: white;
+    font-size:large;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.5);
+}
+#Loginbtn:hover{
+    background-color: white;
+    color:#2e7ec4 ;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}

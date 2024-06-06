@@ -1,0 +1,254 @@
+@CHARSET "ISO-8859-1";
+*{
+	margin:0;
+	padding:0;
+	/* font-family: "Brush Script", cursive;
+	color:gray; */
+	font-family: roboto, Sans-Serif, Arial;
+}
+
+.main-container{
+	margin:0 auto;
+	width:1200px;
+	background:#ffffff;
+	position: relative;
+}
+#NavContainer{
+margin:0 auto;
+	width:1200px;
+	background:#ffffff;
+	
+}
+#clear-both{
+	clear:both;
+}
+
+/*			-------									header		      	-------						*/
+
+
+header{
+	padding:10px;
+}
+.logo {
+	float:left;
+}
+.srch-con{
+	float:right;
+}
+.srch-con > div{
+	float:left;
+	/* background-color:black; */
+}
+.search{
+	position:relative;
+	margin:0 auto;
+}
+.search-container{
+	width:500px;
+}
+
+.search input{
+	width:480px;
+	height:45px;
+	border-radius:3px;
+	padding-left:20px;
+	/* border:2px black; */
+}
+.search button{
+	width:30px;
+	height:30px;
+	position:absolute;
+	right:10px;
+	top:6px;
+	border:none;
+    /* background-color:black;	 */
+}
+.search img{
+	width:30px;
+	height:30px;
+}
+
+
+
+.contact{
+	padding:5px 0;
+	width:400px;
+	/* background-color:green; */
+}
+
+/* .contact > div > div{
+	width:195px;
+	text-align:right;
+	float:left;
+	
+	font-size:110%;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	padding-left:5px;
+} */
+#like-icon{
+height:30px;
+width:30px;
+}
+#LikeIconDiv{
+width:35px;
+float:left;
+/* background-color:red; */
+margin-left:170px;
+
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 10px 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  /* background-color: red; */
+ border-top:2px solid orange;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#login-Btn{
+  height:40px;
+  width:140px;
+  border:none;
+  /* background-color:red; */
+  float:right;
+}
+#profile-img{
+height:30px;
+width:30px;
+}
+
+
+.nav-bar-content li{
+	max-width:70px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+
+
+/* Navigation Bar */
+
+nav{
+	background:#ffffff;
+
+}
+nav .category select{
+	border:none;
+	background:#ffffff;
+	width:100px;
+	height:30px;
+}
+nav > div {
+	float:left;
+}
+.category{
+    float:right;
+	padding:10px 10px;
+	/* background-color:red; */
+}
+.category > div{
+    
+	width:130px;
+}
+.nav-bar > div{
+	width:600px;
+}
+#serch-btn{
+width:50px;
+height:50px;
+  /* background-color:black; */
+  /* float:right; */
+}
+.nav-bar ul li{
+	float:left;
+	padding:10px 10px;
+}
+
+.nav-bar ul{
+	padding:6px 6px;
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+	color:#777777;
+}
+
+.nav-bar-content{
+	margin:0 auto;
+}
+
+.nav-bar ul li:nth-last-child(1) a{
+	color:#000000;
+}
+.nav-bar ul li a:hover{
+	color:#f75d34;;
+}
+.profiles{
+	padding:10px;
+	float:right;
+
+}
+.profiles > div{
+	width:380px;
+}
+.profiles a{
+	padding:0 15px;
+}
+
+#label label pre{
+	color:green;
+	font-size:16px;
+	text-align:right;
+}
+
+#profile-icon{
+	float:right;
+	width:200px;
+}
+#profile-icon > div{
+	float:left;
+}
+#label{
+	float:left;
+	width:180px;
+}
+
